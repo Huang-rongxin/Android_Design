@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome1" >
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="欢迎使用容鑫词典"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textColor="#039BE5"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to use Rongxin's dictionary"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textColor="#039BE5"
+        android:layout_below="@+id/tv1"/>
+
+
+</RelativeLayout>

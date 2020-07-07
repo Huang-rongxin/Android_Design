@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#F5F5F5"
+    >  
+	
+	<EditText
+		android:id="@+id/et_value"
+		android:layout_width="fill_parent"
+   		android:layout_height="160dip"
+   		android:gravity="top"
+   		android:hint="请输入需要翻译的句子"
+	></EditText>
+	
+	<LinearLayout
+		android:orientation="horizontal"  
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+		
+		<Spinner
+		    android:id="@+id/spinner_type"
+		    android:layout_width="164dp"
+		    android:layout_height="wrap_content" >
+</Spinner>
+			
+		<Button
+		    android:id="@+id/btn_tran"
+		    android:layout_width="84dp"
+		    android:layout_height="wrap_content"
+		    android:text="@string/tran" >
+</Button>
+		
+		<Button
+		    android:id="@+id/btn_clear"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/clear" >
+</Button>
+		
+	</LinearLayout>
+	
+	<EditText
+		android:id="@+id/et_result"
+		android:layout_width="fill_parent"
+		android:gravity="top"
+   		android:layout_height="160dip"
+   		android:editable="false"
+	></EditText>
+	
+	<RelativeLayout 
+		android:id="@+id/re_layout"
+	    android:orientation="vertical"  
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+    </RelativeLayout>
+	
+</LinearLayout>
+
+

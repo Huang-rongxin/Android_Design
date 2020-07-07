@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/select_layout"
+    android:background="#F5F5F5"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:id="@+id/LinearLayout01" 
+        android:layout_marginTop="20px"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+        <ImageView android:id="@+id/abc"
+            android:src="@drawable/abc"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"/>
+        <AutoCompleteTextView
+            android:hint="请输入您要查询的单词"
+            android:id="@+id/input_act" 
+            android:layout_width="240dip"
+            android:layout_height="wrap_content">
+        </AutoCompleteTextView>
+        <ImageButton 
+            android:id="@+id/select_btn" 
+            android:src="@android:drawable/ic_menu_search"
+            android:background="#F5F5F5"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingLeft="10dp">
+        </ImageButton>
+    </LinearLayout>
+
+    <RelativeLayout android:id="@+id/sel_result_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView android:id="@+id/select_word"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        android:textSize="20dip"
+        android:layout_marginTop="16px"
+        android:layout_marginLeft="20px"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/show"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="基本释义:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="10px"
+        android:layout_below="@id/select_word"/>
+
+    <TextView android:id="@+id/select_word_mean"
+        android:visibility="invisible"
+        android:textColor="@color/black"
+        android:textSize="20dip"
+        android:drawableLeft="@drawable/right"
+        android:layout_marginTop="18px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show"/>
+
+    <ImageView android:id="@+id/add_local"
+        android:visibility="invisible"
+        android:src="@drawable/add_note"
+        android:layout_marginTop="16px"
+        android:layout_marginRight="28px"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"/>
+
+   </RelativeLayout>
+</LinearLayout>

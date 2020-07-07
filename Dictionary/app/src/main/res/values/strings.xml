@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">容鑫字典</string>
+    <string name="allwords">所有生词</string>
+    <string name="_8px">8px</string>
+    <string name="tran">翻译</string>    
+	<string name="clear">清空</string>
+
+</resources>

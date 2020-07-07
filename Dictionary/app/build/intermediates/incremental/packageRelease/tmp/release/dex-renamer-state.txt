@@ -1,0 +1,4 @@
+#Fri Dec 27 12:42:29 CST 2019
+base.0=D\:\\Android_Design\\Dictionary\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

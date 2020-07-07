@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hrx.dict.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:maxSdkVersion="29"
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <!-- 查看网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 允许访问网络 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="hrx.dict.activity.MyApplication"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/dictionary"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="hrx.dict.activity.WelcomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="hrx.dict.activity.LoginActivity" />
+        <activity android:name="hrx.dict.activity.RegisterActivity" />
+        <activity android:name="hrx.dict.activity.MainActivity" />
+        <activity android:name="hrx.dict.activity.TranslateActivity" />
+        <activity android:name="hrx.dict.activity.SelectActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="F:\Dictionary\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9d94d2cd6a86d29c7df6dcc49f5b738ecd4fe78">
+        <dex dex="F:\Dictionary\app\build\intermediates\pre-dexed\debug\instant-run_7f214f4b91e1c04a2ec544fe96053a106d80a0af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Dictionary\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2224a4e790bbe4c94720f8cf042e252174a6e137">
+        <dex dex="F:\Dictionary\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_5e43a4c2201c63ef8581de8ed5b6b1b8e18cb30c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Dictionary\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="861e42e38a3d5ad4fde21e34be1a96d66ba18e09">
+        <dex dex="F:\Dictionary\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_5e43a4c2201c63ef8581de8ed5b6b1b8e18cb30c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Dictionary\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\Dictionary\app\build\intermediates\pre-dexed\debug\instant-run_7f214f4b91e1c04a2ec544fe96053a106d80a0af.jar" />
+    </item>
+
+</items>

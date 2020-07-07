@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="hrx.dict.activity"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:maxSdkVersion="29"
+8-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml
+9        android:minSdkVersion="15"
+9-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="26" />
+10-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml
+11
+12    <!-- 查看网络状态 -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:8:5-95
+13-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:8:22-76
+14    <!-- 允许访问网络 -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:10:5-83
+15-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:10:22-64
+16
+17    <application
+17-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:12:5-30:19
+18        android:name="hrx.dict.activity.MyApplication"
+18-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:14:9-38
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\26754\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@drawable/dictionary"
+21-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:13:9-44
+22        android:label="@string/app_name"
+22-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:15:9-41
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:16:9-40
+25        <activity android:name="hrx.dict.activity.WelcomeActivity" >
+25-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:17:9-23:20
+25-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:18:13-44
+26            <intent-filter>
+26-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:19:13-22:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:20:17-69
+27-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:20:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:21:17-77
+29-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:21:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="hrx.dict.activity.LoginActivity" />
+32-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:24:9-60
+32-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:24:19-48
+33        <activity android:name="hrx.dict.activity.RegisterActivity" />
+33-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:25:9-63
+33-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:25:19-51
+34        <activity android:name="hrx.dict.activity.MainActivity" />
+34-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:26:9-59
+34-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:26:19-47
+35        <activity android:name="hrx.dict.activity.TranslateActivity" />
+35-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:27:9-64
+35-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:27:19-52
+36        <activity android:name="hrx.dict.activity.SelectActivity" />
+36-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:28:9-61
+36-->D:\Android_Design\Dictionary\app\src\main\AndroidManifest.xml:28:19-49
+37    </application>
+38
+39</manifest>

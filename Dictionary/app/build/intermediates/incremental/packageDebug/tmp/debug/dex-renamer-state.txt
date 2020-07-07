@@ -1,0 +1,4 @@
+#Fri Dec 27 12:41:11 CST 2019
+base.0=D\:\\Android_Design\\Dictionary\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
